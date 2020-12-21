@@ -1,0 +1,21 @@
+{
+    "name": "Dranzleyder",
+    "manifest_version": 2,
+    "version": "1.0",
+    "description": "The Dranzleyder - dranzleydihng text since 2020",
+    "author": "Ben Manley",
+
+    "permissions": ["storage", "activeTab"],
+    "background": {
+        "scripts": ["initialize_dranzleyder.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "Dranzleyd Page",
+        "default_icon": {
+            "16": "icons/jackicon16.jpg",
+            "24": "icons/jackicon24.jpg",
+            "32": "icons/jackicon32.jpg"
+        }
+    }
+}
